@@ -1,0 +1,25 @@
+body {
+    color:rgb(158, 140, 140);
+    background-color: rgb(0, 0, 0);
+    margin: 35px;
+}
+
+ header {
+    border-bottom: solid 2px rgb(224, 4, 4);
+    padding: 20px;
+    font-size: 20;
+    color: rgb(224, 4, 4);
+
+}
+
+section {
+    background:rgb(53 46 46);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.aff-ta-em-texto  {
+    margin-right: 1%;
+}
