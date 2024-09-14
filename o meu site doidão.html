@@ -27,7 +27,7 @@
     </section>
 
     <section class="categoria">
-        <h2>Confira:</h2>
+        <h2>Filmes e séries</h2>
         <div class="categoria-videos">
             <a href="https://www.youtube.com/watch?v=WIprjCQSDEk">
                 <img src="https://img.youtube.com/vi/WIprjCQSDEk/maxresdefault.jpg" />
@@ -38,15 +38,197 @@
             <a href="https://www.youtube.com/watch?v=qJFytdByH5U">
                 <img src="https://img.youtube.com/vi/qJFytdByH5U/maxresdefault.jpg" />
             </a>
-            <a href="https://www.youtube.com/watch?v=7Tp8UOOUr4I">
-                <img src="https://img.youtube.com/vi/7Tp8UOOUr4I/maxresdefault.jpg" />
+            <a href="https://www.youtube.com/watch?v=qgu-GGYVXo0">
+                <img src="https://img.youtube.com/vi/qgu-GGYVXo0/maxresdefault.jpg" />
             </a>
             <a href="https://www.youtube.com/watch?v=FjsmNF8RRJQ">
                 <img src="https://img.youtube.com/vi/FjsmNF8RRJQ/maxresdefault.jpg" />
-            </a>
+            </a> 
         </div>
     </section>
+    
+    <div>
+       
+        <a href="https://i.pinimg.com/564x/5e/b1/c8/5eb1c885de312465426aab90922d1607.jpg">
+        
+    </div>
+
 
 </body>
 
 </html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECEBA</title>
+</head>
+<body>
+    <h1>omaga</h1>
+    
+    <section>
+    <p>la ele:</p>
+    <a href="https://i.pinimg.com/originals/ff/6e/81/ff6e81973fffba7379a473d894c8458d.jpg" target="_blank">clique aqui</a>
+    </section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            text-align: center;
+        }
+    </style>
+    <title>Centralizar Imagem</title>
+</head>
+<body>
+    <div class="container">
+        <a 
+            href="https://i.pinimg.com/564x/32/81/5a/32815a59e9c91922a02a7fe43d3af82b.jpg">
+            <img src="https://i.pinimg.com/564x/fd/89/0d/fd890dcd6482d50a67d4bbd4aeb37edc.jpg" alt="Imagem centralizada">
+
+        </a>
+
+    </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        img {
+            cursor: pointer; /* O cursor muda para indicar que a imagem pode ser clicada */
+        }
+    </style>
+    <title>Imagem com Som ao Clicar</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Imagem -->
+        <img src="https://i.pinimg.com/originals/8a/4f/db/8a4fdb151d03f554302e7df6525bb31e.jpg" alt="Clique para ouvir o som" width="45" id="imagem">
+        
+        <!-- Áudio (som a ser tocado) -->
+        <audio id="som" src="file:///C:/Users/Victo/Downloads/A%20CLEIDE%20SEM%20CALCINHA.mp3"></audio>
+    </div>
+
+    <script>
+        // Seleciona a imagem e o som
+        const imagem = document.getElementById('imagem');
+        const som = document.getElementById('som');
+
+        som.volume = 0.1
+
+        // Adiciona o evento de clique na imagem
+        imagem.addEventListener('click', function() {
+            som.play(); // Toca o som ao clicar na imagem
+        });
+    </script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            text-align: center; /* Centraliza o texto horizontalmente */
+            margin-top: 50px;
+        }
+    </style>
+    <title>Centralizar Texto</title>
+</head>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            text-align: flex;
+            margin-top: 50px;
+        }
+
+        p {
+            cursor: pointer; /* O cursor muda para indicar que o texto pode ser clicado */
+            color: rgb(255, 0, 0);
+        }
+    </style>
+    <title>Redirecionamento Aleatório para Imagem</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Texto que será clicado -->
+        <p id="texto">Escolha uma cor de 0 a 10</p>
+    </div>
+
+    <script>
+        // Array de URLs das imagens
+        const imagens = [
+            "https://i.pinimg.com/originals/bf/6f/8c/bf6f8c27abae7065191659316e21e3cc.jpg",
+            "https://i.pinimg.com/564x/e1/bd/26/e1bd269f1bf6862efcb263fe807f32be.jpg",
+            "https://i.pinimg.com/564x/bc/ea/5a/bcea5a362149e644361eabb5dfabddce.jpg",
+            "https://i.pinimg.com/564x/3d/df/c2/3ddfc23d204422d4fc147d73d31b8a34.jpg",
+            "https://i.pinimg.com/236x/48/a2/b9/48a2b9c2f13c1349f2bc906ec14f3535.jpg",
+            "https://i.pinimg.com/564x/29/20/d7/2920d7d65aeb3e875b6507e7b15bfd8c.jpg",
+            "https://i.pinimg.com/564x/ba/f8/ac/baf8ace87a075b5439cafe6795fe31b4.jpg",
+            "https://media.discordapp.net/attachments/1009269812318457877/1284579812350103644/20240814_232319.jpg?ex=66e725ad&is=66e5d42d&hm=4ad5456f32882b63bed84ba84e07b2ad37ef6be6adf2dcf1c16fae45222e19ef&=&format=webp&width=262&height=263",
+            "https://cdn.discordapp.com/attachments/1009269812318457877/1284580032597069937/Screenshot_2024-08-31-15-32-05-314_com.roblox.client.jpg?ex=66e725e2&is=66e5d462&hm=d5789cc76bf116a68db5de9ee13a2139755c7b36238ee05ec814589b4f4d5b6b&"
+        ];
+
+        // Função para gerar uma chance aleatória e redirecionar para uma imagem
+        document.getElementById('texto').addEventListener('click', function() {
+            // Gera um número aleatório entre 0 e 1
+            const chance = Math.random();
+
+            // Se a chance for maior que 0.5 (50% de probabilidade)
+            if (chance > 0) {
+                // Escolhe uma imagem aleatória do array
+                const imagemAleatoria = imagens[Math.floor(Math.random() * imagens.length)];
+
+                // Redireciona o usuário para a imagem
+                window.location.href = imagemAleatoria;
+            } else {
+                alert("vai toma no cu piranha"); // Mostra uma mensagem se não for redirecionado
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
