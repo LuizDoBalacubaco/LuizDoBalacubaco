@@ -2,6 +2,5 @@
 
  Este é meu perfil todo capenga
  
- - Me chamo Luiz ou para os mais íntimos Mike 🤓
- - Estou cursando o Alura, bem massa 😎
- - Apenas criei o perfil para organizar minhas coisa 🤪
+ - Me chamo Mike 🤓
+- Apenas criei o perfil para organizar minhas coisas 🤪
