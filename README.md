@@ -4,4 +4,4 @@
  
  - Me chamo Luiz ou para os mais íntimos Mike 🤓
  - Estou cursando o Alura, bem massa 😎
- - Apenas criei o perfil para organizar minhas coisinhas malucas 🤪
+ - Apenas criei o perfil para organizar minhas coisa 🤪
